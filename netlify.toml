@@ -1,11 +1,11 @@
 [[redirects]]
-  from = "/*/inspector.html"
+  from = "/serve_rev/*/inspector.html"
   to = "/inspector.html"
   status = 200
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "/*"
-  to = "https://chrome-devtools-frontend.appspot.com/:splat"
+  from = "/serve_rev/*"
+  to = "https://chrome-devtools-frontend.appspot.com/serve_rev/:splat"
   status = 200
   force = true # COMMENT: ensure that we always redirect
