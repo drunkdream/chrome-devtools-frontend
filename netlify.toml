@@ -1,6 +1,12 @@
 [[redirects]]
-  from = "/serve_rev/:rev/inspector.html"
+  from = "/serve_rev/*/inspector.html"
   to = "/inspector.html"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/serve_rev/@:rev/devtools.manifest"
+  to = "https://chrome-devtools-frontend.appspot.com/serve_rev/@:rev/:rev.manifest"
   status = 200
   force = true # COMMENT: ensure that we always redirect
 
