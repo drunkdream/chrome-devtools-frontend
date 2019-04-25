@@ -11,7 +11,7 @@
   force = false # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "/serve_rev/*"
+  from = "/serve_rev1/*"
   to = "https://chrome-devtools-frontend.appspot.com/serve_rev/:splat"
   status = 200
   force = true # COMMENT: ensure that we always redirect
