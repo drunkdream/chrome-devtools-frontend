@@ -6,7 +6,7 @@
 
 [[redirects]]
   from = "/serve_rev/@*/devtools.manifest"
-  to = "https://chrome-devtools-frontend.appspot.com/serve_rev/@:splat/200258.manifest"
+  to = "https://chrome-devtools-frontend.appspot.com/serve_rev/@:splat/:splat/.manifest"
   status = 302
   force = false # COMMENT: ensure that we always redirect
 
